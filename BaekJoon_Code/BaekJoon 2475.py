@@ -16,3 +16,5 @@ print(SUM_result%10)
 num_list=map(int,input().split())
 num_list=[num **2 for num in num_list]
 print(sum(num_list)%10)
+
+
