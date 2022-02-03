@@ -8,4 +8,5 @@ while True:
   if cnt!=0 and val==N: break
   val=(val%10*10)+(((val//10)+(val%10))%10)
   cnt+=1
+
 print(cnt)
