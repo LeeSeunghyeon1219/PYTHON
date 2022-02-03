@@ -1,7 +1,6 @@
 ## BaekJoon 1292 쉽게 푸는 문제
 
 import sys
-
 A, B = map(int, sys.stdin.readline().split())
 data_list = []
 num = 1
