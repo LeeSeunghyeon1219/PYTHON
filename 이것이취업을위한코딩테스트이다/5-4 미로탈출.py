@@ -9,6 +9,7 @@ dy=[0,0,-1,1]
 def bfs(x,y):
     queue=deque([[x,y]])
     while queue:
+        print(x,y)
         x,y=queue.popleft()
         for xx, yy in zip(dx,dy):
             moved_x=x+xx
